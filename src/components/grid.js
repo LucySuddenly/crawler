@@ -5,7 +5,7 @@ class Grid extends Component {
     render() { 
         return ( 
             <div id="grid">
-                {new Array(121).fill(0).map((item,index) => {
+                {new Array(121).fill(0).map(() => {
                 return <Tile/>
                 })}
             </div>
